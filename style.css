@@ -1,0 +1,82 @@
+form{
+  background-color: lightgreen;
+  margin: 30px 3px;
+  padding: 170px 22px;
+  border-radius: 11px;
+  border: 2px solid forestgreen;
+}
+#submit{
+outline: none;
+border: 2px solid white;
+border-radius: 21px;
+padding: 9px 21px;
+background-color: #222;
+font-size: 17px;
+color: floralwhite;
+font-family: georgia;
+margin: 130px;
+}
+#inputtache{
+  outline: none;
+  border: 2px solid forestgreen;
+  border-radius: 21px;
+  padding: 7px 17px;
+  background-color: whitesmoke;
+  font-size: 27px;
+  color: darkcyan;
+  font-family: georgia;
+  margin-bottom: 20px;
+}
+input::placeholder{
+  color: limegreen;
+  font-family: georgia;
+  font-size: 20px;
+}
+#divG{
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-areas:
+  " input1 listtache";
+  
+}
+#tachelist{
+  grid-area: listtache;
+}
+#formdiv{
+  grid-area: input1;
+}
+ul{
+  background-color: #222;
+  color: ghostwhite;
+  border-radius: 11px;
+  border: 2px solid deeppink;
+  padding: 217px 22px;
+  margin: 30px 5px ;
+  font-size: 20px ;
+  font-family: georgia;
+  
+}
+body{
+  background-color: white;
+}
+#completebtn{
+  outline: none;
+border: 2px solid limegreen;
+border-radius: 21px;
+padding: 9px 21px;
+background-color: #222;
+font-size: 13px;
+color: floralwhite;
+font-family: georgia;
+}
+#supremerbtn{
+ outline: none;
+border: 2px solid red;
+border-radius: 21px;
+padding: 9px 21px;
+background-color: #222;
+font-size: 13px;
+margin: 7px;
+color: floralwhite;
+font-family: georgia;
+}
